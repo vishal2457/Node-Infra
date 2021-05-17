@@ -4,7 +4,10 @@ const app = express();
 app.use(json());
 app.get("/api/users/currentuser", (req, res) => {
     res.send('hi there')
-})
+});
+
+
+
 
 let port = 3000
 
